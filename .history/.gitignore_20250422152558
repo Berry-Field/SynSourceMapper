@@ -53,3 +53,5 @@ logs/
 *.log
 
 # Data
+data/
+datasets/
