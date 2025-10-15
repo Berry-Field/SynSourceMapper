@@ -197,11 +197,15 @@ MIT License - see LICENSE file
 If you use this code in your research, please cite:
 
 ```bibtex
-@software{synsourcemapper,
-  title = {SynSourceMapper: Synthetic Dataset Generator for Acoustic Source Localization},
-  author = {Your Name},
-  year = {2024},
-  url = {https://github.com/yourusername/SynSourceMapper}
+@article{jia2025dual,
+  title={A dual-encoder U-net architecture with prior knowledge embedding for acoustic source mapping},
+  author={Jia, Haobo and Yang, Feiran and Hu, Xiaoqing and Yang, Jun},
+  journal={The Journal of the Acoustical Society of America},
+  volume={158},
+  number={3},
+  pages={1767--1782},
+  year={2025},
+  publisher={AIP Publishing}
 }
 ```
 
