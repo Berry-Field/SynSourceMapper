@@ -1,0 +1,26 @@
+scan_set:
+  array_id: 2
+  array_base_dir: ${PROJECT_ROOT}/arraybox
+  fs: 48000
+  nfft: 1024
+  c: 343
+  x_range: [-2, 2]
+  y_range: [-2, 2]
+  z_scan: 2
+  x_grid: 41
+  y_grid: 41
+
+source_set:
+  freq: [15000]
+  num_samples: 25600
+  nos: [1]
+  min_source_distance: 3
+  minEnergy: 0.1
+
+target_map_set:
+  blur: true
+  lowk: 3
+
+norm_range: [0, 1]
+noise_level: [0, 50]
+cache_dir: cache_spDataset
